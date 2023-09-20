@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #150E28;
+  background-image: url(../images/Purple-Lens.png);
+  background-size: 80% 60%;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  padding: 30px 60px 20px 60px;
+  border-bottom: 1px solid #ffffff18;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  width: 40%;
+}
+
+.nav-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.nav-logo a {
+  color: #D434FE;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav-link a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.reg-link,
+.hero-text button {
+  background-image: linear-gradient(to right, #fe34dc, #903AFF);
+  padding: 10px 40px !important;
+  border-radius: 4px;
+}
+
+.nav-logo span {
+  color: #fff;
+}
+
+.text-h2 {
+  color: #fff;
+  text-align: right;
+  padding: 20px 60px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.vector1 {
+  float: right;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border-bottom: 1px solid #fff;
+  background-image: url(../images/man-wearing-smart.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
+}
+
+.hero-section>div {
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 55%;
+}
+
+.hero-text {
+  color: #fff;
+  position: relative;
+}
+
+.hero-text h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.ligh-bulb {
+  position: absolute;
+  top: -20px;
+  right: 31%;
+}
+
+.hero-text span {
+  color: #D434FE;
+}
+
+.hero-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.hero-text button {
+  margin-bottom: 40px;
+  border: 0;
+  color: #fff;
+}
+
+.countdown {
+  color: #fff;
+}
+
+.countdown code {
+  margin-right: 20px;
+}
+
+.countdown span {
+  font-size: 50px;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  background-image: url(../images/Purple-Lens.png);
+  background-size: 80% 60%;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
