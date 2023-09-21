@@ -57,7 +57,8 @@ header {
 
 .reg-link,
 .hero-text button,
-.Judging-btn {
+.Judging-btn,
+.privacy-text-body button {
   background-image: linear-gradient(to right, #fe34dc, #903AFF);
   padding: 10px 40px !important;
   border-radius: 4px;
@@ -161,7 +162,9 @@ header {
 .intro-section,
 .rules-section,
 .judging-section,
-.ask-section {
+.ask-section,
+.prizes-section,
+.privacy-section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -173,11 +176,14 @@ header {
 .intro-section>div,
 .rules-section>div,
 .judging-section>div,
-.ask-section>div {
+.ask-section>div,
+.prizes-section>div,
+.privacy-section>div {
   width: 50%;
   padding: 30px;
   box-sizing: border-box;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .intro-img,
@@ -208,7 +214,9 @@ header {
 .intro-text h2,
 .rules-text h2,
 .judging-text h2,
-.ask-text h2 {
+.ask-text h2,
+.prizes-text h2,
+.privacy-text-head h2 {
   position: relative;
   margin-bottom: 20px;
   line-height: 1.5;
@@ -254,14 +262,18 @@ header {
 
 .intro-text p,
 .rules-text p,
-.judging-text p {
+.judging-text p,
+.prizes-text p,
+.partners-head p {
   line-height: 1.5;
 }
 
 .intro-text h2 span,
 .rules-text h2 span,
 .judging-text h2 span,
-.ask-text h2 span {
+.ask-text h2 span,
+.prizes-text h2 span,
+.privacy-text-head h2 span {
   color: #D434FE;
 }
 
@@ -270,12 +282,15 @@ header {
 }
 
 .judging-text p,
-.ask-text p {
+.ask-text p,
+.privacy-text-head p,
+.privacy-text-body p {
   margin-bottom: 20px;
   line-height: 1.4;
 }
 
-.Judging-btn {
+.Judging-btn,
+.privacy-btn {
   cursor: pointer;
   border: 0;
   color: #fff;
@@ -358,7 +373,8 @@ header {
   right: 40%;
 }
 
-.timeline-section {
+.timeline-section,
+.partners-section {
   padding: 40px 80px;
   border-bottom: 1px solid #ffffff33;
 }
@@ -428,4 +444,137 @@ header {
 
 .timeline-svg>div:nth-child(2) {
   margin: 10px 0;
+}
+
+.partners-head {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.partners-img {
+  display: flex;
+  justify-content: center;
+}
+
+.partners-head h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.privacy-text-body {
+  border: 1px solid #d634fe6e;
+  padding: 30px;
+}
+
+.privacy-text-body h3 {
+  color: #D434FE;
+  margin-bottom: 10px;
+}
+
+.privacy-btn-div,
+.privacy-img>div {
+  display: flex;
+  justify-content: center;
+}
+
+.privacy-img {
+  background-image: url(../images/privacy-image2.png);
+  background-size: 50%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.p-vector {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.p-vector>div:first-child {
+  margin: 5px 20px 0 0;
+}
+
+/* Footer Section */
+footer {
+  padding: 40px 100px;
+  color: #fff;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer1-1 {
+  width: 50%;
+
+}
+
+.footer1-1 h2,
+.footer1 h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer1-2 ul {
+  list-style-type: none;
+  line-height: 1.7;
+}
+
+.footer1-2 ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer1-1 h2 span,
+.footer1 h4,
+.footer1-2 p span {
+  color: #D434FE;
+}
+
+.footer1-2 p span,
+.footer1-2 p svg {
+  margin-right: 10px;
+}
+
+.footer1-2 p svg {
+  cursor: pointer;
+}
+
+.footer1-1 p {
+  line-height: 1.5;
+}
+
+.footer1-1 p:last-child {
+  margin-top: 40px;
+}
+
+.footer1-1 p:last-child span {
+  color: #D434FE;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.footer1-2,
+.footer1-3 {
+  width: 20%;
+}
+
+.footer1-3>div {
+  margin-bottom: 15px;
+}
+
+.footer1-3>div:last-child {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.footer1-3>div:last-child div {
+  margin-right: 20px;
+  line-height: 1.5;
+}
+
+.footer2 {
+  text-align: center;
+  margin-top: 20px;
 }
