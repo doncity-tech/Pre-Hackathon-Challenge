@@ -1,0 +1,72 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-wrapper {
+  display: flex;
+  width: 70%;
+  padding: 40px 0;
+  justify-content: space-around;
+}
+
+.container-wrapper>div {
+  width: 50%;
+}
+
+.text-area h2,
+.text-area p {
+  margin-bottom: 20px;
+}
+
+.text-area p {
+  color: #fff;
+}
+
+.text-area h2,
+.text-area p span,
+.form-head h3 {
+  color: #D434FE;
+}
+
+.text-area p svg {
+  margin-right: 10px;
+}
+
+.form-area {
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: #8f3aff10;
+}
+
+.form-head {
+  margin-bottom: 30px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background: none;
+  border: 1px solid #cccccc;
+  border-color: gray;
+  color: #fff;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn button {
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
