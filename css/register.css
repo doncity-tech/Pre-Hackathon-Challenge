@@ -1,0 +1,152 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.reg-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reg-img {
+  width: 40%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.reg-form-area {
+  width: 55%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: #8f3aff10;
+}
+
+.reg-form-head h2 {
+  color: #D434FE;
+  margin-bottom: 30px;
+}
+
+.reg-form-head p,
+.reg-form-head h3,
+.reg-input {
+  color: #fff;
+  line-height: 1.5;
+}
+
+.reg-form-body {
+  margin-top: 20px;
+
+}
+
+.reg-input input,
+.reg-input select {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  background: none;
+  border: 1px solid #cccccc;
+  border-color: gray;
+  color: #fff;
+}
+
+.reg-checkbox input {
+  background: none;
+  color: #fff;
+}
+
+.reg-input>div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.reg-input>div:last-child input,
+.reg-input>div:last-child label,
+.reg-input>div:last-child select {
+  width: 100%;
+}
+
+.reg-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.reg-input>div {
+  width: 100%;
+}
+
+.register-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.register-btn button {
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  width: 100%;
+}
+
+.reg-checkbox p {
+  margin-bottom: 10px;
+  color: #D434FE;
+}
+
+.reg-checkbox span {
+  color: #fff;
+}
+
+/* Registration successfully */
+.reg-success {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #150e28ee;
+  z-index: 99;
+}
+
+.success-wrap {
+  width: 30%;
+  border: 1px solid #d634feec;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.s-image-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.s-image-wrap img:first-child {
+  margin-right: -150px;
+  margin-top: -17px;
+}
+
+.success-text h2,
+.success-text h3 {
+  margin-bottom: 10px;
+}
+
+.s-back-btn {
+  margin-top: 20px;
+}
+
+.s-back-btn button {
+  width: 100%;
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+}

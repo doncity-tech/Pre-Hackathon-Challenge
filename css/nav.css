@@ -114,5 +114,7 @@ header {
 
   .for-mobi-view.responsive {
     display: block;
+    position: fixed;
+    top: 0;
   }
 }

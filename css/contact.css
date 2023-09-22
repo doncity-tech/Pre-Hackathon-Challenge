@@ -5,6 +5,7 @@
 
 .container-wrapper {
   display: flex;
+  flex-wrap: wrap;
   width: 70%;
   padding: 40px 0;
   justify-content: space-around;
@@ -69,4 +70,76 @@
 
 ::placeholder {
   color: #fff;
+}
+
+.c-social-mobi,
+.c-back-btn {
+  display: none;
+}
+
+.c-disc-mobi {
+  display: none;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1093px) {
+  .container-wrapper {
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+  }
+
+  .container-wrapper>div {
+    width: 100%;
+  }
+
+  .form-area {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 40px;
+    border-radius: 0;
+    background: #150E28;
+    z-index: 999;
+  }
+
+  .text-area {
+    display: none;
+  }
+
+  .submit-btn,
+  .c-back-btn {
+    margin-bottom: 20px;
+  }
+
+  .c-social-mobi {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .c-social-mobi span {
+    color: #D434FE;
+    font-weight: bold;
+  }
+
+  .c-social-mobi svg {
+    margin-right: 10px;
+  }
+
+  .c-back-btn {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+
+  .c-disc-mobi {
+    display: block;
+  }
+
+  textarea {
+    height: 50%;
+  }
 }
