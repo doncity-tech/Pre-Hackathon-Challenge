@@ -19,7 +19,7 @@
         <a href="#">Timeline</a>
         <a href="#">Overview</a>
         <a href="#">FAQs</a>
-        <a href="./contact">Contact</a>
+        <a href="./contact.html">Contact</a>
         <a class="reg-link" href="./register.html">Register</a>
       </div>      
     </div> 
@@ -34,7 +34,7 @@
           <a href="#">Timeline</a>
           <a href="#">Overview</a>
           <a href="#">FAQs</a>
-          <a href="./contact">Contact</a>
+          <a href="./contact.html">Contact</a>
         </div>
         <div><a class="reg-link" href="./register.html">Register</a></div> 
       </div>
@@ -47,61 +47,81 @@
   </header>
   <!-- Main body of contact -->
   <div class="register-container">
-    <div class="container-wrapper">
+    <div class="reg-wrapper">
       <div class="reg-img">
-        <img src="./images/register-image.png" alt="feature image">
+        <img src="./images/register-image.png" alt="feature image" width="100%">
       </div>
       <div class="reg-form-area">
-        <div class="reg-form-head">
-          <h2>Register</h2>
-          <p>Be part of this movement!</p>
-          <h3>CREATE YOUR ACCOUNT</h3>
-        </div>
-        <div class="reg-form-body">
-          <form action="">
-            <div class="form">
-              <div>
-                <div>
-                  <label for="">Team's Name</label>
-                  <input type="text" placeholder="Enter the name of your group">
+        <div>
+          <div class="reg-form-head">
+            <h2>Register</h2>
+            <p>Be part of this movement!</p>
+            <h3>CREATE YOUR ACCOUNT</h3>
+          </div>
+          <div class="reg-form-body">
+            <form action="">
+              <div class="reg-form">
+                <div class="reg-input">
+                  <div>
+                    <label for="">Team's Name</label>
+                    <input type="text" placeholder="Enter the name of your group">
+                  </div>
+                  <div>
+                    <label for="">Phone</label>
+                    <input type="text" placeholder="Enter your phone number">
+                  </div>
                 </div>
-                <div>
-                  <label for="">Phone</label>
-                  <input type="text" placeholder="Enter your phone number">
+                <div class="reg-input">
+                  <div>
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Enter your email address">
+                  </div>
+                  <div>
+                    <label for="">Project Topic</label>
+                    <input type="text" placeholder="What is your group project topic">
+                  </div>
+                </div>
+                <div class="reg-input">
+                  <div>
+                    <label for="">Category</label>
+                    <select name="" id="">Select your category</select>
+                  </div>
+                  <div>
+                    <label for="">Group Size</label>
+                    <select name="" id="">Select</select>
+                  </div>
+                </div>
+                <div class="reg-checkbox">
+                  <p>Please review your registration details before submitting</p>
+                  <input type="checkbox">
+                  <span>I agreed with the event terms and conditions  and privacy policy</span>
                 </div>
               </div>
-              <div>
-                <div>
-                  <label for="">Email</label>
-                  <input type="text" placeholder="Enter your email address">
-                </div>
-                <div>
-                  <label for="">Project Topic</label>
-                  <input type="text" placeholder="What is your group project topic">
-                </div>
+              <div class="register-btn">
+                <button>Register New</button>
               </div>
-              <div>
-                <div>
-                  <label for="">Category</label>
-                  <select name="" id="">Select your category</select>
-                </div>
-                <div>
-                  <label for="">Group Size</label>
-                  <select name="" id="">Select</select>
-                </div>
-              </div>
-              <div>
-                <p for="">Please review your registration details before submitting</p>
-                <input type="checkbox">
-                <span>I agreed with the event terms and conditions  and privacy policy</span>
-              </div>
-            </div>
-            <div class="register-btn">
-              <button>Register New</button>
-            </div>
-          </form>
-        </div>
+            </form>
+          </div>
+        </div>        
       </div>
+    </div>
+  </div>
+  <div class="reg-success">
+    <div class="success-wrap">
+      <div class="s-image-wrap">
+        <img src="./images/success-good.png" alt="feature image" width="70%">
+        <img src="./images/success-man.png" alt="feature image" width="60%">
+      </div>
+      <div class="success-text">
+        <h2>Congratulations</h2>
+        <h3>you have successfully Registered!</h3>
+        <p>Yes, it was easy and you did it!</p>
+        <p>
+          check your mail box for next step
+          <img src="./images/s-smile.png" alt="">
+        </p>
+      </div>
+      <div class="s-back-btn"><button>Back</button></div>
     </div>
   </div>
   <script src="./javascript/nav.js"></script>

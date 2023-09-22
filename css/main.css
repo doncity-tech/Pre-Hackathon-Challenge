@@ -20,7 +20,9 @@ body {
 .hero-text button,
 .Judging-btn,
 .privacy-text-body button,
-.submit-btn button {
+.submit-btn button,
+.register-btn button,
+.s-back-btn button {
   background-image: linear-gradient(to right, #fe34dc, #903AFF);
   padding: 10px 40px !important;
   border-radius: 4px;
