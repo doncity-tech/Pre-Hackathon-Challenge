@@ -4,55 +4,16 @@
 }
 
 body {
+  position: relative;
   background: #150E28;
 }
 
 .container {
   background-image: url(../images/Purple-Lens.png);
-  background-size: 80% 60%;
+  background-size: 80% 70%;
   background-position: left top;
   background-repeat: no-repeat;
-}
-
-header {
-  display: flex;
-  padding: 30px 60px 20px 60px;
-  border-bottom: 1px solid #ffffff33;
-}
-
-.nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.nav-logo {
-  width: 40%;
-}
-
-.nav-link {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  box-sizing: border-box;
-}
-
-.nav-logo a {
-  color: #D434FE;
-  text-decoration: none;
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.nav-link a {
-  font-size: 16px;
-  text-decoration: none;
-  color: #fff;
-  padding: 0 20px;
+  border-top: 1px solid #ffffff33;
 }
 
 .reg-link,
@@ -63,10 +24,6 @@ header {
   padding: 10px 40px !important;
   border-radius: 4px;
   font-weight: bold;
-}
-
-.nav-logo span {
-  color: #fff;
 }
 
 .text-h2 {
@@ -88,11 +45,6 @@ header {
   justify-content: space-between;
   padding: 20px 60px;
   border-bottom: 1px solid #ffffff33;
-  background-image: url(../images/man-wearing-smart.png);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-origin: border-box;
 }
 
 .hero-section>div {
@@ -153,17 +105,18 @@ header {
   display: flex;
   justify-content: center;
   width: 45%;
-  background-image: url(../images/Purple-Lens.png);
   background-size: 80% 60%;
-  background-position: right center;
+  background-image: url(../images/man-wearing-smart.png);
+  background-position: right;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .intro-section,
 .rules-section,
 .judging-section,
 .ask-section,
-.prizes-section,
 .privacy-section {
   display: flex;
   flex-wrap: wrap;
@@ -173,17 +126,49 @@ header {
   border-bottom: 1px solid #ffffff33;
 }
 
+.prizes-section {
+  padding: 20px 60px;
+  border-bottom: 1px solid #ffffff33;
+}
+
 .intro-section>div,
 .rules-section>div,
 .judging-section>div,
 .ask-section>div,
-.prizes-section>div,
+.prize-images>div,
 .privacy-section>div {
   width: 50%;
   padding: 30px;
   box-sizing: border-box;
   color: #fff;
-  box-sizing: border-box;
+}
+
+.prizes-text {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+}
+
+.prize-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prize-images>div {
+  padding-top: 0;
+}
+
+.prize-images>div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.prizes-text>div {
+  width: 40%;
+  padding: 30px 0 0 60px;
 }
 
 .intro-img,
@@ -218,7 +203,7 @@ header {
 .prizes-text h2,
 .privacy-text-head h2 {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   line-height: 1.5;
 }
 
@@ -411,7 +396,7 @@ header {
 }
 
 .timeline-body p {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .timeline-body>div>div:nth-child(odd) {
@@ -429,12 +414,30 @@ header {
   justify-content: center;
 }
 
+.svg-l {
+  width: 4px;
+  height: 50px;
+}
+
 [class^="timeline-row"]>div:nth-child(1) {
   order: 1;
 }
 
 [class^="timeline-row"]>div:nth-child(2) {
   order: 3;
+}
+
+.tl-date {
+  align-self: flex-end;
+  padding-bottom: 20px;
+}
+
+.tl-date-mobi {
+  display: none;
+}
+
+.t-details {
+  margin-bottom: -30px;
 }
 
 .timeline-svg {
@@ -503,6 +506,7 @@ footer {
 .footer1 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer1-1 {
@@ -577,4 +581,183 @@ footer {
 .footer2 {
   text-align: center;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 1093px) {
+
+  .hero-section,
+  .intro-section,
+  .rules-section,
+  .judging-section,
+  .ask-section,
+  .timeline-section,
+  .prizes-section,
+  .partners-section,
+  .privacy-section,
+  footer {
+    padding: 30px;
+  }
+
+  .text-h2 {
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .vector1 {
+    width: 40%;
+  }
+
+  .hero,
+  .hero-img,
+  .intro-section>div,
+  .rules-section>div,
+  .judging-section>div,
+  .ask-section>div,
+  .prizes-section>div,
+  .privacy-section>div {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .intro-section>div,
+  .rules-section>div,
+  .judging-section>div,
+  .privacy-section>div {
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .privacy-text-body>div {
+    text-align: left;
+  }
+
+  .ask-section>div {
+    padding: 20px 10px;
+  }
+
+  .ask-text,
+  .p-lead {
+    text-align: center;
+  }
+
+  .rules-img {
+    order: 1;
+  }
+
+  .rules-text {
+    order: 2;
+  }
+
+  .hero-text img {
+    width: 30px !important;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero-btn-div,
+  .countdown {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-text button {
+    margin-bottom: 20px;
+  }
+
+  .countdown code {
+    margin-right: 0;
+    padding: 0 10px;
+  }
+
+  .countdown p {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .timeline-body>div {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  [class^="timeline-row"]>div:nth-child(1) {
+    order: 2;
+  }
+
+  [class^="timeline-row"]>div:nth-child(2) {
+    order: 3;
+  }
+
+  .timeline-svg {
+    width: 7% !important;
+    order: 1;
+  }
+
+  .tl-date {
+    display: none;
+  }
+
+  .timeline-body>div>div {
+    width: 85%;
+  }
+
+  .timeline-body>div>div:nth-child(2n+1) {
+    text-align: left;
+  }
+
+  .t-details {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .timeline-body p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .svg-l {
+    width: 4px;
+    height: 90px;
+  }
+
+  .tl-date-mobi {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .prizes-text>div {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .prizes-text h2 {
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+
+  .prize-images>div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .prize-images>div img {
+    width: 100%;
+  }
+
+  /* footer section */
+  .footer1>div {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }

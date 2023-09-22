@@ -4,26 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GetLinked</title>
+  <link rel="stylesheet" href="./css/nav.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="nav">
-        <div class="nav-logo">
-          <a href="/"><span>get</span>linked</a>
-        </div>
-        <div class="nav-link">
-          <div>
-            <a href="#">Timeline</a>
-            <a href="#">Overview</a>
-            <a href="#">FAQs</a>
-            <a href="./contact">Contact</a>
-          </div>
-          <div><a class="reg-link" href="#">Register</a></div>        
-        </div>
+  <!-- Navigation for mobile view -->
+  <div class="for-mobi-view" id="for-mobi-view">
+    <div class="menu-bar2" id="menu-bar2">
+      <span id="menu-close" class="m-close">X</span>             
+    </div> 
+    <div class="nav-link2" id="nav-link2">
+      <div>
+        <a href="#">Timeline</a>
+        <a href="#">Overview</a>
+        <a href="#">FAQs</a>
+        <a href="./contact">Contact</a>
+        <a class="reg-link" href="#">Register</a>
+      </div>      
+    </div> 
+  </div>
+  <header>
+    <nav class="nav">
+      <div class="nav-logo">
+        <a href="/"><span>get</span>linked</a>
       </div>
-    </header>
+      <div class="nav-link" id="nav-link">
+        <div>
+          <a href="#">Timeline</a>
+          <a href="#">Overview</a>
+          <a href="#">FAQs</a>
+          <a href="./contact">Contact</a>
+        </div>
+        <div><a class="reg-link" href="#">Register</a></div> 
+      </div>
+      <div class="menu-bar" id="menu-bar">
+        <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.35714 0H8.14286C8.50279 0 8.84799 0.1475 9.1025 0.410051C9.35701 0.672601 9.5 1.0287 9.5 1.4C9.5 1.7713 9.35701 2.1274 9.1025 2.38995C8.84799 2.6525 8.50279 2.8 8.14286 2.8H1.35714C0.997206 2.8 0.652012 2.6525 0.397498 2.38995C0.142984 2.1274 0 1.7713 0 1.4C0 1.0287 0.142984 0.672601 0.397498 0.410051C0.652012 0.1475 0.997206 0 1.35714 0ZM10.8571 11.2H17.6429C18.0028 11.2 18.348 11.3475 18.6025 11.6101C18.857 11.8726 19 12.2287 19 12.6C19 12.9713 18.857 13.3274 18.6025 13.5899C18.348 13.8525 18.0028 14 17.6429 14H10.8571C10.4972 14 10.152 13.8525 9.8975 13.5899C9.64298 13.3274 9.5 12.9713 9.5 12.6C9.5 12.2287 9.64298 11.8726 9.8975 11.6101C10.152 11.3475 10.4972 11.2 10.8571 11.2ZM1.35714 5.6H17.6429C18.0028 5.6 18.348 5.7475 18.6025 6.01005C18.857 6.2726 19 6.6287 19 7C19 7.3713 18.857 7.7274 18.6025 7.98995C18.348 8.2525 18.0028 8.4 17.6429 8.4H1.35714C0.997206 8.4 0.652012 8.2525 0.397498 7.98995C0.142984 7.7274 0 7.3713 0 7C0 6.6287 0.142984 6.2726 0.397498 6.01005C0.652012 5.7475 0.997206 5.6 1.35714 5.6Z" fill="white"/>
+        </svg>              
+      </div>  
+    </nav>
+  </header>    
+  <div class="container"> 
     <div class="text-h2">
       <h2>Igniting a Revolution in HR Innovation</h2>
       <svg class="vector1" width="255" height="17" viewBox="0 0 255 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +61,9 @@
           <p>
             Participate in getlinked tech Hackathon 2023 stand <br> a chance to win a Big prize
           </p>
-          <button class="hero-btn">Register</button>
+          <div class="hero-btn-div">
+            <button class="hero-btn">Register</button>
+          </div>          
           <img class="ligh-bulb" src="./images/Creative 1.png" alt="" width="5%">
         </div>
         <div class="countdown">
@@ -52,7 +75,7 @@
         </div>
       </div>
       <div class="hero-img">
-        <img src="./images/Image 1.png" alt="" width="80%">
+        <img src="./images/Image 1.png" alt="" width="90%">
       </div>
     </div>
   </div>
@@ -94,7 +117,7 @@
       </p>
     </div>
     <div class="rules-img">
-      <img src="./images/rules-img1.png" alt="Rules section Image">
+      <img src="./images/rules-img1.png" alt="Rules section Image" width="100%">
     </div>
   </div>
   <div class="judging-section">
@@ -157,16 +180,16 @@
           Can I work on a project I started before the hackathon? <span>+</span>
         </div>
         <div class="ask-tab1">
-          What happens if I need help during the hackathon? <span>+</span>
+          Can I work on a project I started before the hackathon? <span>+</span>
         </div>
         <div class="ask-tab1">
           What happens if I don't have an idea for a project? <span>+</span>
         </div>
         <div class="ask-tab1">
-          Can I join a team or do I have to come with one? <span>+</span>
+          Can I work on a project I started before the hackathon? <span>+</span>
         </div>
         <div class="ask-tab1">
-          What happens after the hackathon ends <span>+</span>
+          Can I work on a project I started before the hackathon? <span>+</span>
         </div>
         <div class="ask-tab1">
           Can I work on a project I started before the hackathon? <span>+</span>
@@ -197,17 +220,18 @@
     </div>
     <div class="timeline-body">
       <div class="timeline-row1">
-        <div>
+        <div class="t-details">
           <h3>Hackathon Announcement</h3>
           <p>
             The getlinked tech hackathon 1.0 is formally announced
             to the general public and teams begin to get ready to register
           </p>
+          <div class="tl-date-mobi"><h3>November 18, 2023</h3></div>
         </div>
-        <div><h3>November 18, 2023</h3></div>
+        <div class="tl-date"><h3>November 18, 2023</h3></div>
         <div class="timeline-svg">
           <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="svg-l"  fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
             </svg>
           </div>
@@ -223,25 +247,21 @@
               </defs>
             </svg>
           </div> 
-          <!-- <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
-            </svg>
-          </div>          -->
         </div>        
       </div>
       <div class="timeline-row2">
-        <div><h3>November 18, 2023</h3></div>
-        <div>
+        <div class="tl-date"><h3>November 18, 2023</h3></div>
+        <div class="t-details">
           <h3>Teams Registration begins</h3>
           <p>
             Interested teams can now show their interest in the
             getlinked tech hackathon 1.0 2023 by proceeding to register
           </p>
+          <div class="tl-date-mobi"><h3>November 18, 2023</h3></div>
         </div>
         <div class="timeline-svg">
           <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="svg-l" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
             </svg>
           </div>
@@ -257,25 +277,21 @@
               </defs>
             </svg>              
           </div> 
-          <!-- <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
-            </svg>
-          </div>          -->
         </div>
       </div>
       <div class="timeline-row3">
-        <div>
+        <div class="t-details">
           <h3>Teams Registration ends</h3>
           <p>
             Interested Participants are no longer Allowed to
             register
           </p>
+          <div class="tl-date-mobi"><h3>November 18, 2023</h3></div>
         </div>
-        <div><h3>November 18, 2023</h3></div>
+        <div class="tl-date"><h3>November 18, 2023</h3></div>
         <div class="timeline-svg">
           <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="svg-l" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
             </svg>
           </div>
@@ -291,25 +307,21 @@
               </defs>
             </svg>                            
           </div> 
-          <!-- <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
-            </svg>
-          </div>          -->
         </div>
       </div>
       <div class="timeline-row4">
-        <div><h3>November 18, 2023</h3></div>
-        <div>
+        <div class="tl-date"><h3>November 18, 2023</h3></div>
+        <div class="t-details">
           <h3>Announcement of the accepted teams and ideas</h3>
           <p>
             All teams whom idea has been accepted into getlinked tech
             hackathon 1.0 2023 are formally announced
           </p>
+          <div class="tl-date-mobi"><h3>November 18, 2023</h3></div>
         </div>
         <div class="timeline-svg">
           <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="svg-l" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
             </svg>
           </div>
@@ -325,30 +337,26 @@
               </defs>
             </svg>                    
           </div> 
-          <!-- <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
-            </svg>
-          </div>          -->
         </div>
       </div>
       <div class="timeline-row5">
-        <div>
+        <div class="t-details">
           <h3>Getlinked Hackathon 1.0 Offically Begins</h3>
           <p>
             Accepted teams can now proceed to build their
             ground breaking skill driven solutions
           </p>
+          <div class="tl-date-mobi"><h3>November 18, 2023</h3></div>
         </div>
-        <div><h3>November 18, 2023</h3></div>
+        <div class="tl-date"><h3>November 18, 2023</h3></div>
         <div class="timeline-svg">
           <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="svg-l" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
             </svg>
           </div>
           <div>
-            <svg width="40" height="40" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="svg-o" width="40" height="40" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="53" height="53" rx="26.5" fill="url(#paint0_linear_29_10)"/>
               <path d="M26.648 34.288C25.48 34.288 24.32 34.136 23.168 33.832C22.032 33.512 21.056 33.064 20.24 32.488L21.776 29.512C22.416 29.976 23.152 30.344 23.984 30.616C24.832 30.888 25.688 31.024 26.552 31.024C27.528 31.024 28.296 30.832 28.856 30.448C29.416 30.064 29.696 29.528 29.696 28.84C29.696 28.408 29.584 28.024 29.36 27.688C29.136 27.352 28.736 27.096 28.16 26.92C27.6 26.744 26.808 26.656 25.784 26.656H21.488L22.352 17.2H32.6V20.32H23.744L25.76 18.544L25.16 25.288L23.144 23.512H26.696C28.36 23.512 29.696 23.744 30.704 24.208C31.728 24.656 32.472 25.272 32.936 26.056C33.4 26.84 33.632 27.728 33.632 28.72C33.632 29.712 33.384 30.632 32.888 31.48C32.392 32.312 31.624 32.992 30.584 33.52C29.56 34.032 28.248 34.288 26.648 34.288Z" fill="white"/>
               <defs>
@@ -359,26 +367,22 @@
               </defs>
             </svg>                         
           </div> 
-          <!-- <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
-            </svg>
-          </div>          -->
         </div>
       </div>
       <div class="timeline-row6">
-        <div><h3>November 18, 2023</h3></div>
-        <div>
+        <div class="tl-date"><h3>November 18, 2023</h3></div>
+        <div class="t-details">
           <h3>Demo Day</h3>
           <p>
             Teams get the opportunity to pitch their projects to judges.
             The winner of the hackathon will also be announced on
             this day
           </p>
+          <div class="tl-date-mobi"><h3>November 18, 2023</h3></div>
         </div>
         <div class="timeline-svg">
           <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="svg-l" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
             </svg>
           </div>
@@ -394,19 +398,11 @@
               </defs>
             </svg>                      
           </div> 
-          <!-- <div>
-            <svg width="4" height="50" viewBox="0 0 4 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="2" y1="8.74228e-08" x2="1.99999" y2="137" stroke="#D434FE" stroke-width="4"/>
-            </svg>
-          </div>          -->
         </div>
       </div>
     </div>    
   </div>
-  <div class="prizes-section">
-    <div class="pri">
-      <img src="./images/prize-cup.png" alt="prize image" width="100%">
-    </div>
+  <div class="prizes-section">    
     <div class="prizes-text">
       <div>
         <h2>Prizes and <br><span>Rewards</span></h2>
@@ -414,8 +410,11 @@
           Highlight of the prizes or rewards for winners and <br>
           for participants.
         </p>
-      </div>
-      <div><img src="./images/Rewards.png" alt="reward image" width="100%"></div>
+      </div>      
+    </div>
+    <div class="prize-images">
+      <div><img src="./images/prize-cup.png" alt="prize image" width="80%"></div>
+      <div><img src="./images/Rewards.png" alt="reward image" width="90%"></div>
     </div>
   </div>
   <div class="partners-section">
@@ -436,13 +435,13 @@
         <h2>Privacy Policy and <br><span>Terms</span></h2>
         <p>Last updated on September 12, 2023</p>
         <p>
-          Below are our privacy & policy, which outline a lot of goodies. <br>
+          Below are our privacy & policy, which outline a lot of goodies.
           it’s our aim to always take of our participant
         </p>
       </div>
       <div class="privacy-text-body">
         <div>
-          <p>
+          <p class="p-lead">
             At getlinked tech Hackathon 1.0, we value your privacy
             and are committed to protecting your personal information.
             This Privacy Policy outlines how we collect, use, disclose, 
@@ -550,6 +549,7 @@
       <p>All rights reserved. &copy; getlinked Ltd.</p>
     </div>
   </footer>
-  <script scr="./javascript/main.js"></script>
+  <script src="./javascript/nav.js"></script>
+  <script src="./javascript/main.js"></script>
 </body>
 </html>
