@@ -119,9 +119,36 @@ header {
   display: none;
 }
 
+/* Loading Notice */
+.page-load {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #150e28e3;
+}
+
+.page-load div {
+  display: flex;
+  justify-content: center;
+}
+
+.page-load img {
+  width: 50%;
+}
+
 @media only screen and (max-width: 1093px) {
   header {
     padding: 20px 30px;
+  }
+
+  .nav-logo a {
+    font-size: 24px;
+
   }
 
   .nav-link {
