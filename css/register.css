@@ -200,6 +200,24 @@ input {
   position: absolute;
 }
 
+.reg-p-walking {
+  position: relative;
+}
+
+.reg-p-walking img {
+  position: absolute;
+}
+
+.reg-p-walking img:first-child {
+  left: 210px;
+  top: -18px;
+}
+
+.reg-p-walking img:last-child {
+  left: 180px;
+  top: -15px;
+}
+
 @media only screen and (max-width: 1080px) {
   .reg-wrapper {
     width: 100%;
