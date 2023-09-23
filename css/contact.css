@@ -1,3 +1,11 @@
+.contact-link {
+  background: linear-gradient(to left, #fe34dc, #903AFF);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+
 .contact-container {
   display: flex;
   justify-content: center;
@@ -68,10 +76,6 @@
   color: #fff;
 }
 
-::placeholder {
-  color: #fff;
-}
-
 .c-social-mobi,
 .c-back-btn {
   display: none;
@@ -109,9 +113,13 @@
     display: none;
   }
 
-  .submit-btn,
   .c-back-btn {
     margin-bottom: 20px;
+  }
+
+  .submit-btn {
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 
   .c-social-mobi {
@@ -119,6 +127,7 @@
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
+    height: fit-content;
   }
 
   .c-social-mobi span {
