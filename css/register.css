@@ -172,7 +172,7 @@ input {
   .reg-wrapper {
     position: fixed;
     top: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: #150E28;
     z-index: 9999;
