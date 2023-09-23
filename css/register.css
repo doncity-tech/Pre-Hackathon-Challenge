@@ -170,7 +170,7 @@ input {
 
 @media only screen and (max-width: 1093px) {
   .reg-wrapper {
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
@@ -232,7 +232,7 @@ input {
   }
 
   .select>div:last-child {
-    width: 30%;
+    width: 40%;
   }
 
   .reg-input input,
@@ -273,7 +273,7 @@ input {
   }
 
   .success-text p {
-    font-size: small;
+    font-size: 16px;
   }
 
   .success-text h3 {
