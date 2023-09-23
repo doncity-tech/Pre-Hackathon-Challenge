@@ -49,7 +49,22 @@
   <div class="register-container">
     <div class="reg-wrapper">
       <div class="reg-img">
-        <img src="./images/register-image.png" alt="feature image" width="100%">
+        <div class="reg-mobi-back h2">
+          <h2>Register</h2>
+          <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_177_298)"/>
+            <path d="M12.2666 9.20001L9.19995 12.2667L12.2666 14.5667" stroke="white"/>
+            <defs>
+            <linearGradient id="paint0_linear_177_298" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#903AFF"/>
+            <stop offset="1" stop-color="#FF26B9"/>
+            </linearGradient>
+            </defs>
+          </svg>          
+        </div>
+        <div>
+          <img src="./images/register-image.png" alt="feature image" width="100%">
+        </div>        
       </div>
       <div class="reg-form-area">
         <div>
@@ -81,14 +96,18 @@
                     <input type="text" placeholder="What is your group project topic">
                   </div>
                 </div>
-                <div class="reg-input">
+                <div class="reg-input select">
                   <div>
                     <label for="">Category</label>
-                    <select name="" id="">Select your category</select>
+                    <select name="" id="">
+                      <option value="">Select your category</option>
+                    </select>
                   </div>
                   <div>
                     <label for="">Group Size</label>
-                    <select name="" id="">Select</select>
+                    <select name="" id="">
+                      <option value="">Select</option>
+                    </select>
                   </div>
                 </div>
                 <div class="reg-checkbox">
@@ -113,8 +132,7 @@
         <img src="./images/success-man.png" alt="feature image" width="60%">
       </div>
       <div class="success-text">
-        <h2>Congratulations</h2>
-        <h3>you have successfully Registered!</h3>
+        <h3>Congratulations <br> you have successfully Registered!</h3>
         <p>Yes, it was easy and you did it!</p>
         <p>
           check your mail box for next step

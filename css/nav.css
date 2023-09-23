@@ -55,6 +55,22 @@ header {
   padding: 0 20px;
 }
 
+.nav-link a:hover:not(.reg-link) {
+  background: linear-gradient(to left, #e24ac9, #903AFF);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.reg-link {
+  background: linear-gradient(to left, #fe34dc, #903AFF);
+}
+
+.reg-link:hover {
+  background: linear-gradient(to right, #903AFF, #fe34dc);
+}
+
 .for-mobi-view {
   display: none;
   position: absolute;
@@ -99,6 +115,10 @@ header {
   text-decoration: none;
 }
 
+.reg-mobi-back {
+  display: none;
+}
+
 @media only screen and (max-width: 1093px) {
   header {
     padding: 20px 30px;
@@ -116,5 +136,16 @@ header {
     display: block;
     position: fixed;
     top: 0;
+  }
+
+  .reg-img>div:first-child {
+    margin-bottom: 10px;
+  }
+
+  .reg-mobi-back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #D434FE;
   }
 }

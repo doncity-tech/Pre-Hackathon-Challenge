@@ -8,6 +8,21 @@ body {
   background: #150E28;
 }
 
+button:hover {
+  background-image: linear-gradient(to right, #903AFF, #fe34dc) !important;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+::placeholder {
+  color: #ffffffa2;
+  font-size: 12px;
+}
+
 .container {
   background-image: url(../images/Purple-Lens.png);
   background-size: 80% 70%;
