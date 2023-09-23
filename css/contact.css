@@ -1,9 +1,25 @@
+body {
+  background-image: url(../images/Purple-Lens-Flare-PNG.png);
+  background-position: 1000px 50px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-origin: border-box;
+}
+
 .contact-link {
   background: linear-gradient(to left, #fe34dc, #903AFF);
   display: inline-block;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent !important;
+}
+
+.contact-container {
+  background-image: url(../images/Purple-Lens-Flare-PNG.png);
+  background-position: 20px 300px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-origin: border-box;
 }
 
 .contact-container {
@@ -141,7 +157,54 @@
   background: none !important;
 }
 
-@media only screen and (max-width: 1093px) {
+.c-light {
+  display: none;
+}
+
+.star-in-c {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+[lass="t-star"] {
+  position: absolute;
+}
+
+@media only screen and (max-width: 1152px) {}
+
+@media only screen and (max-width: 1080px) {
+  .form-area {
+    position: relative;
+    width: auto;
+  }
+
+  .c-light {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: -90px;
+    z-index: -1;
+    width: 90%;
+  }
+
+  .container-wrapper {
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .container-wrapper>div:first-child {
+    width: 30%;
+  }
+
+  .container-wrapper>div:last-child {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
   .container-wrapper {
     width: 100%;
     padding: 30px;
@@ -149,6 +212,10 @@
   }
 
   .container-wrapper>div {
+    width: 100%;
+  }
+
+  .container-wrapper>div:last-child {
     width: 100%;
   }
 

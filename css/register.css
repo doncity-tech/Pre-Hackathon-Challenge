@@ -9,6 +9,22 @@
   border-image: linear-gradient(to left #fe34dc #903AFF) 1 stretch;
 }
 
+body {
+  background-image: url(../images/Purple-Lens-Flare-PNG.png);
+  background-position: 1200px 350px;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-origin: border-box;
+}
+
+.register-container {
+  background-image: url(../images/Purple-Lens-Flare-PNG.png);
+  background-position: 0 20px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-origin: border-box;
+}
+
 #reg-back-btn {
   cursor: pointer;
 }
@@ -176,7 +192,39 @@ input {
   color: #fff;
 }
 
-@media only screen and (max-width: 1093px) {
+.c-light {
+  display: none;
+}
+
+[lass="t-star"] {
+  position: absolute;
+}
+
+@media only screen and (max-width: 1080px) {
+  .reg-wrapper {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .reg-form-area {
+    width: 60%;
+  }
+
+  .c-light {
+    display: block;
+    position: absolute;
+    top: 270px;
+    right: 60px;
+    z-index: -1;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .reg-form-area {
+    width: 100%;
+  }
+
   .reg-wrapper {
     position: absolute;
     top: 0;
@@ -292,5 +340,15 @@ input {
 
   .success-text img {
     width: 5%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .reg-form-area {
+    padding: 10px !important;
+  }
+
+  .reg-img img {
+    width: 100%;
   }
 }
