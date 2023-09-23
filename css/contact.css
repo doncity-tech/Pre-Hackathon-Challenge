@@ -70,7 +70,8 @@
   justify-content: center;
 }
 
-.submit-btn button {
+.submit-btn button,
+.s-link {
   cursor: pointer;
   border: 0;
   color: #fff;
@@ -81,10 +82,63 @@
   display: none;
 }
 
+.c-back-btn {
+  cursor: pointer;
+}
+
 .c-disc-mobi {
   display: none;
   color: #fff;
   margin-bottom: 20px;
+}
+
+/* Thank you section */
+.contact-thanks {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #150e28e3;
+}
+
+.contact-thanks div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-thanks p {
+  width: 100%;
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact-thanks img {
+  width: 40%;
+}
+
+.c-close {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  padding: 5px 10px;
+  background: transparent;
+  font-weight: 700;
+  color: #D434FE;
+  border: 0;
+  font-size: 25px;
+}
+
+.c-close:hover {
+  border: 1px solid #D434FE;
+  background: none !important;
 }
 
 @media only screen and (max-width: 1093px) {
@@ -150,5 +204,10 @@
 
   textarea {
     height: 50%;
+  }
+
+  /* Thanks for contact */
+  .contact-thanks p {
+    font-size: 1.5rem;
   }
 }

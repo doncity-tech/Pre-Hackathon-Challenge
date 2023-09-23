@@ -9,6 +9,10 @@
   border-image: linear-gradient(to left #fe34dc #903AFF) 1 stretch;
 }
 
+#reg-back-btn {
+  cursor: pointer;
+}
+
 .register-container {
   display: flex;
   justify-content: center;
@@ -66,6 +70,10 @@ select {
   width: 90%;
   padding: 7px 10px;
   color: #fff;
+}
+
+.reg-input select {
+  color: gray;
 }
 
 .reg-checkbox input {
