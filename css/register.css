@@ -9,7 +9,7 @@
   border-image: linear-gradient(to left #fe34dc #903AFF) 1 stretch;
 }
 
-body {
+/* body {
   background-image: url(../images/Purple-Lens-Flare-PNG.png);
   background-position: 1200px 350px;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
   background-repeat: no-repeat;
   background-size: 40%;
   background-origin: border-box;
-}
+} */
 
 #reg-back-btn {
   cursor: pointer;
@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .reg-wrapper {
@@ -60,7 +60,11 @@ body {
 
 .reg-form-head h2 {
   color: #D434FE;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.reg-form-head h3 {
+  font-size: 1rem;
 }
 
 .reg-form-head p,
@@ -192,30 +196,16 @@ input {
   color: #fff;
 }
 
-.c-light {
-  display: none;
-}
-
 [lass="t-star"] {
   position: absolute;
 }
 
 .reg-p-walking {
-  position: relative;
+  padding-right: 20px;
 }
 
 .reg-p-walking img {
-  position: absolute;
-}
-
-.reg-p-walking img:first-child {
-  left: 210px;
-  top: -18px;
-}
-
-.reg-p-walking img:last-child {
-  left: 180px;
-  top: -15px;
+  border-bottom: 1px dotted #fff;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -228,14 +218,6 @@ input {
     width: 60%;
   }
 
-  .c-light {
-    display: block;
-    position: absolute;
-    top: 270px;
-    right: 60px;
-    z-index: -1;
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 780px) {
@@ -265,17 +247,12 @@ input {
   }
 
   .reg-img img {
-    width: 50%;
+    width: 100%;
   }
 
   .reg-wrapper,
   .reg-wrapper>div {
     width: 100%;
-  }
-
-  .reg-form-head p,
-  .reg-form-head h3 {
-    text-align: center;
   }
 
   .reg-form-head h3 {
@@ -366,7 +343,7 @@ input {
     padding: 10px !important;
   }
 
-  .reg-img img {
-    width: 100%;
+  .reg-f-image {
+    width: 60% !important;
   }
 }

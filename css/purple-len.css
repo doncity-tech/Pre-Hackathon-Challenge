@@ -1,0 +1,110 @@
+/* 
+This style page takes care of
+purple lens flear 
+*/
+body {
+  position: relative;
+}
+
+div[class^="lens-"] {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* Register Page */
+.reg-len1 {
+  position: absolute;
+  top: 100px;
+  left: -10px;
+  width: 40%;
+}
+
+.reg-len2 {
+  position: absolute;
+  top: 250px;
+  right: -300px;
+  width: 50%;
+}
+
+.reg-len1-mobi {
+  display: none;
+}
+
+/* The Stars */
+[class^="reg-star"] {
+  position: absolute;
+}
+
+.reg-star1 {
+  top: 20%;
+  left: 15%;
+}
+
+.reg-star2 {
+  bottom: 2%;
+  left: 15%;
+}
+
+.reg-star3 {
+  top: 25%;
+  right: 20%;
+}
+
+.reg-star4 {
+  bottom: 15%;
+  left: 37%;
+}
+
+/* End of Register page */
+
+@media only screen and (max-width: 1080px) {
+  .reg-len1-mobi {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .reg-len1-mobi {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .reg-len1-mobi {
+    top: 70%;
+    left: -10%;
+    width: 50%;
+  }
+
+  [class^="reg-star"] {
+    width: 10px;
+  }
+
+  .reg-star1 {
+    top: 300%;
+    left: 80%;
+  }
+
+  .reg-star2 {
+    bottom: -360%;
+    left: 5%;
+  }
+
+  .reg-star3 {
+    top: 50%;
+    right: 50%;
+  }
+
+  .reg-star4 {
+    bottom: -660%;
+    left: 90%;
+  }
+}
