@@ -844,7 +844,7 @@ footer {
   }
 
   .hero-text img {
-    width: 15px !important;
+    width: 15px;
   }
 
   .hero-text p {
@@ -1020,5 +1020,9 @@ footer {
 
   .vector1 {
     margin-right: 40px;
+  }
+
+  .rules-text p img {
+    width: 15px;
   }
 }
