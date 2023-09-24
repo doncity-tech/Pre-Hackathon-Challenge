@@ -16,6 +16,126 @@ div[class^="lens-"] {
 }
 
 /* Home Page */
+[class^="home-star"] {
+  position: absolute;
+  width: 15px;
+}
+
+.home-star0 {
+  left: 9%;
+  bottom: 108%;
+}
+
+.home-star01 {
+  left: 90%;
+  bottom: 90%;
+}
+
+.home-star02 {
+  left: 51%;
+  bottom: 0.5%;
+}
+
+.home-star1 {
+  left: 25%;
+  bottom: 36%;
+}
+
+.home-star2 {
+  left: 80%;
+  bottom: 35.5%;
+}
+
+.home-star3 {
+  left: 55%;
+  bottom: 34.5%
+}
+
+.home-star4 {
+  left: 88%;
+  bottom: 33%
+}
+
+.home-star5 {
+  left: 76%;
+  bottom: 28.5%
+}
+
+.home-star6 {
+  left: 22%;
+  bottom: 28.3%
+}
+
+.home-star7 {
+  left: 8%;
+  bottom: 100.3%
+}
+
+.home-star8 {
+  left: 58%;
+  bottom: 74.3%
+}
+
+.home-star9 {
+  left: 57%;
+  bottom: 19.3%
+}
+
+.home-star10 {
+  left: 22%;
+  bottom: 15.7%
+}
+
+.home-star11 {
+  left: 45%;
+  bottom: 14%
+}
+
+.home-star12 {
+  left: 80%;
+  bottom: 14.7%
+}
+
+.home-star13 {
+  left: 67%;
+  bottom: 10.2%
+}
+
+.home-star14 {
+  left: 62%;
+  bottom: 9%;
+}
+
+.home-star15 {
+  left: 90%;
+  bottom: 7.7%
+}
+
+.home-star16 {
+  left: 4%;
+  bottom: 7.7%
+}
+
+.home-star17 {
+  left: 3%;
+  bottom: 3%
+}
+
+.home-star18 {
+  left: 70%;
+  bottom: 3.7%
+}
+
+.home-star19 {
+  left: 91%;
+  bottom: 2%
+}
+
+.home-star20 {
+  left: 43%;
+  bottom: 1.2%
+}
+
 @media only screen and (max-width: 1080px) {}
 
 @media only screen and (max-width: 780px) {}
