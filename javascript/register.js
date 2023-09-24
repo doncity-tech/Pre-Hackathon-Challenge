@@ -53,12 +53,10 @@ const submitRegister = (data) => {
       qs('.page-load').style.display = "none";
     })
 }
-
 //UI Interaction
 (() => {
   //Reset form
   qs('#register-form').reset();
-
   // back to the previous page
   qs('#reg-back-btn').addEventListener('click', () => {
     history.back()

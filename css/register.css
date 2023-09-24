@@ -208,6 +208,10 @@ input {
   border-bottom: 1px dotted #fff;
 }
 
+#reg-back-btn {
+  z-index: 99999;
+}
+
 @media only screen and (max-width: 1080px) {
   .reg-wrapper {
     width: 100%;
