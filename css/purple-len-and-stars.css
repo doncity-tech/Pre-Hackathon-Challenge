@@ -140,7 +140,11 @@ div[class^="lens-"] {
 
 @media only screen and (max-width: 780px) {}
 
-@media only screen and (max-width: 550px) {}
+@media only screen and (max-width: 550px) {
+  [class^="home-star"] {
+    width: 10px !important;
+  }
+}
 
 /* End of Home page */
 
