@@ -35,12 +35,19 @@ const submitContact = (data) => {
   //Handle submit button
   qs('#submit-btn').addEventListener('click', e => {
     let formInput = new FormData(qs('#contact-form'));
+
+    // check for empty or no input
+    if (!cleanMyText(formInput.get('fname'))) return;
+    if (!cleanMyText(formInput.get('email'))) return;
+    if (!cleanMyText(formInput.get('message'))) return;
+
     let contactData = JSON.stringify({
       "first_name": formInput.get('fname'),
       "phone_number": formInput.get('phone'),
       "email": formInput.get('email'),
       "message": formInput.get('message')
     })
+
     submitContact(contactData);
     qs('.page-load').style.display = "flex";
     e.preventDefault();

@@ -35,9 +35,10 @@ div[class^="lens-"] {
 
 .reg-len2 {
   position: absolute;
-  top: 250px;
-  right: -300px;
-  width: 50%;
+  top: 180px;
+  right: -200px;
+  width: 40%;
+  opacity: 0.6;
 }
 
 .reg-len1-mobi {
@@ -132,8 +133,9 @@ div[class^="lens-"] {
 }
 
 .cont-len2 {
-  bottom: -20%;
-  right: -15%;
+  bottom: 0;
+  right: 0;
+  width: 30%;
 }
 
 .cont-len3 {
@@ -177,8 +179,9 @@ div[class^="lens-"] {
   }
 
   .cont-len2 {
-    bottom: -20%;
-    right: -35%;
+    bottom: 0;
+    right: 0;
+    width: 30%;
   }
 }
 

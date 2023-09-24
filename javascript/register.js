@@ -67,6 +67,14 @@ const submitRegister = (data) => {
     let formInput = new FormData(qs('#register-form'));
     let privacayStatus = (formInput.get('privacy_poclicy_accepted') === 'on')
       ? true : false;
+
+    //check for empty or no input
+    if (!cleanMyText(formInput.get('team_name'))) return;
+    if (!cleanMyText(formInput.get('phone_number'))) return;
+    if (!cleanMyText(formInput.get('email'))) return;
+    if (!cleanMyText(formInput.get('group_size'))) return;
+    if (!cleanMyText(formInput.get('project_topic'))) return;
+
     let regData = JSON.stringify({
       "team_name": formInput.get('team_name'),
       "phone_number": formInput.get('phone_number'),
