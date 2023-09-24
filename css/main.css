@@ -601,7 +601,7 @@ footer {
 }
 
 .footer1-1 {
-  width: 50%;
+  width: 40%;
 
 }
 
@@ -743,9 +743,12 @@ footer {
     width: 50%;
   }
 
-  .footer1-1,
-  .footer1-2 {
+  .footer1-1 {
     width: 35%;
+  }
+
+  .footer1-2 {
+    width: 30%;
   }
 
   .footer1-3 {

@@ -4,6 +4,7 @@ purple lens flear
 */
 body {
   position: relative;
+  overflow: hidden;
 }
 
 div[class^="lens-"] {
@@ -14,6 +15,16 @@ div[class^="lens-"] {
   overflow: hidden;
   z-index: -1;
 }
+
+/* Home Page */
+@media only screen and (max-width: 1080px) {}
+
+@media only screen and (max-width: 780px) {}
+
+@media only screen and (max-width: 550px) {}
+
+/* End of Home page */
+
 
 /* Register Page */
 .reg-len1 {
@@ -58,8 +69,6 @@ div[class^="lens-"] {
   bottom: 15%;
   left: 37%;
 }
-
-/* End of Register page */
 
 @media only screen and (max-width: 1080px) {
   .reg-len1-mobi {
@@ -108,3 +117,106 @@ div[class^="lens-"] {
     left: 90%;
   }
 }
+
+/* End ofs Register page */
+
+/* Contact Page */
+[class^="cont-len"] {
+  position: absolute;
+  width: 40%;
+  opacity: 0.6;
+}
+
+.cont-len1 {
+  top: 10%;
+  left: -5%;
+}
+
+.cont-len2 {
+  bottom: -20%;
+  right: -15%;
+}
+
+.cont-len3 {
+  display: none;
+  z-index: -1;
+}
+
+[class^="cont-star"] {
+  position: absolute;
+}
+
+.cont-star1 {
+  top: -40%;
+  left: -115%;
+}
+
+.cont-star2 {
+  top: -40%;
+  right: -15%;
+}
+
+.cont-star3 {
+  top: 80%;
+  right: 105%;
+}
+
+.cont-star4 {
+  top: 105%;
+  right: -15%;
+}
+
+@media only screen and (max-width: 1080px) {
+  [class^="cont-len"] {
+    width: 60%;
+    opacity: 0.5;
+  }
+
+  .cont-len1 {
+    top: 10%;
+    left: -20%;
+  }
+
+  .cont-len2 {
+    bottom: -20%;
+    right: -35%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .cont-len3 {
+    position: absolute;
+    display: block;
+    top: -50%;
+    left: -20%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  [class^="cont-star"] {
+    width: 12px;
+  }
+
+  .cont-star1 {
+    top: -40%;
+    left: -115%;
+  }
+
+  .cont-star2 {
+    top: -30%;
+    right: -2%;
+  }
+
+  .cont-star3 {
+    top: 75%;
+    right: 95%;
+  }
+
+  .cont-star4 {
+    top: 55%;
+    right: -7%;
+  }
+}
+
+/* End ofs Contact page */
