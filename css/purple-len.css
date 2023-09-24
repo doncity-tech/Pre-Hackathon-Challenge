@@ -4,7 +4,6 @@ purple lens flear
 */
 body {
   position: relative;
-  overflow: hidden;
 }
 
 div[class^="lens-"] {
