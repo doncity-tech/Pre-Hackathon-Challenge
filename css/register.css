@@ -9,22 +9,6 @@
   border-image: linear-gradient(to left #fe34dc #903AFF) 1 stretch;
 }
 
-/* body {
-  background-image: url(../images/Purple-Lens-Flare-PNG.png);
-  background-position: 1200px 350px;
-  background-repeat: no-repeat;
-  background-size: 30%;
-  background-origin: border-box;
-}
-
-.register-container {
-  background-image: url(../images/Purple-Lens-Flare-PNG.png);
-  background-position: 0 20px;
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-origin: border-box;
-} */
-
 #reg-back-btn {
   cursor: pointer;
 }
@@ -273,7 +257,7 @@ input {
 
   .reg-img {
     width: 40%;
-    padding: 30px 30px 0 30px;
+    padding: 0 30px 0 30px;
     box-sizing: border-box;
   }
 
@@ -349,5 +333,9 @@ input {
 
   .reg-f-image {
     width: 60% !important;
+  }
+
+  .register-btn {
+    margin-bottom: 30px;
   }
 }
