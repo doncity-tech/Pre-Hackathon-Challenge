@@ -342,6 +342,10 @@ div[class^="lens-"] {
 }
 
 @media only screen and (max-width: 550px) {
+  .cont-len3 {
+    display: none;
+  }
+
   [class^="cont-star"] {
     width: 12px;
   }
@@ -393,34 +397,3 @@ div[class^="lens-"] {
   animation-name: twinkle-1;
   animation-duration: 1.5s;
 }
-
-@keyframes twinkle-1 {
-  50% {
-    transform: scale(0.3);
-    opacity: 0.3;
-  }
-}
-
-@keyframes twinkle-2 {
-  20% {
-    transform: scale(0.5);
-    opacity: 0.5;
-  }
-}
-
-#back {
-  position: fixed;
-  padding: 0;
-  margin: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
-}
-
-
-/* <div id="back"></div>
-<div class="star-1 stars"></div>
-<div class="star-2 stars"></div>
-<div class="star-3 stars"></div> */
