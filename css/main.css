@@ -396,13 +396,40 @@ textarea {
 
 .ask-tab>div {
   border-bottom: 1px solid #d634fe6e;
-  margin-bottom: 5px;
-  padding: 15px 0;
+}
+
+.ask-tab1>p {
+  margin-bottom: 15px;
+}
+
+.ask-tab1 {
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.fqa-answer {
+  color: #fe34dc;
+  line-height: 1.5;
+  padding: 0 15px 0 15px;
+  font-style: italic;
+  font-size: 16px;
+  max-height: 0;
+  transition: max-height 0.2s ease-in;
+  -webkit-transition: max-height 0.2s ease-in;
+  -moz-transition: max-height 0.2s ease-in;
+  -ms-transition: max-height 0.2s ease-in;
+  -o-transition: max-height 0.2s ease-in;
+}
+
+.fqa-answer p {
+  padding: 0 15px 15px 15px;
 }
 
 .ask-tab span {
   float: right;
-  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .ask-b {
