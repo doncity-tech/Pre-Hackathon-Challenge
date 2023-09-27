@@ -135,7 +135,7 @@ input {
 
 /* Registration successfully */
 .reg-success {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
