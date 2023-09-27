@@ -33,5 +33,28 @@
       }
     });
   });
-
+  // Control the navigation when scrolling
+  window.addEventListener('scroll', () => {
+    // For Overview
+    if (window.scrollY > 592 && window.scrollY < 2264) {
+      qs('#overview-nav').className = "active-nav";
+    }
+    else {
+      qs('#overview-nav').className = "";
+    }
+    // For FAQs
+    if (window.scrollY > 2264 && window.scrollY < 2791) {
+      qs('#faq-nav').className = "active-nav";
+    }
+    else {
+      qs('#faq-nav').className = "";
+    }
+    // For Timeline
+    if (window.scrollY > 2791 && window.scrollY < 3696) {
+      qs('#timeline-nav').className = "active-nav";
+    }
+    else {
+      qs('#timeline-nav').className = "";
+    }
+  });
 })();
