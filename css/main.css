@@ -696,6 +696,24 @@ footer {
   top: 10px;
 }
 
+#scroll-btn {
+  visibility: hidden;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 99999;
+  margin: 10px;
+  background-image: linear-gradient(to right, #fe34dc, #903AFF);
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  max-width: 40px;
+  max-height: 40px;
+}
+
 @media only screen and (max-width: 1080px) {
   .text-h2 {
     font-size: 16px;
