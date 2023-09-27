@@ -17,9 +17,9 @@
     </div> 
     <div class="nav-link2" id="nav-link2">
       <div>
-        <a href="#">Timeline</a>
-        <a href="#">Overview</a>
-        <a href="#">FAQs</a>
+        <a href="/#timeline">Timeline</a>
+        <a href="/#overview">Overview</a>
+        <a href="/#QandA">FAQs</a>
         <a href="./contact.html">Contact</a>
         <a class="reg-link" href="./register.html">Register</a>
       </div>      
@@ -32,9 +32,9 @@
       </div>
       <div class="nav-link" id="nav-link">
         <div>
-          <a href="#">Timeline</a>
-          <a href="#">Overview</a>
-          <a href="#">FAQs</a>
+        <a href="/#timeline">Timeline</a>
+        <a href="/#overview">Overview</a>
+        <a href="/#QandA">FAQs</a>
           <a href="./contact.html">Contact</a>
         </div>
         <div><a class="reg-link" href="./register.html">Register</a></div> 
@@ -85,7 +85,7 @@
       </div>
     </div>
   </div>
-  <div class="intro-section">
+  <div id="overview" class="intro-section">
     <div class="intro-img">
       <img src="./images/The big idea.png" alt="Intro Image">
       <img class="home-star03 star home-star" src="./images/star pu.png" alt="">
@@ -170,7 +170,7 @@
       <button class="Judging-btn">Read More</button>
     </div>
   </div>
-  <div class="ask-section">
+  <div id="QandA" class="ask-section">
     <div class="ask-sec-text">
       <div class="ask-text">        
         <h2>          
@@ -220,7 +220,7 @@
       </svg>        
     </div>
   </div>
-  <div class="timeline-section">
+  <div id="timeline" class="timeline-section">
     <div class="timeline-head">
       <h2>Timeline</h2>
       <p>Here is the breakdown of the time we anticipate<br>using for the upcoming event.</p>
@@ -537,9 +537,9 @@
       <div class="footer1-2">
         <h4>Useful Links</h4>
         <ul>
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Timeline</a></li>
-          <li><a href="#">FAQs</a></li>
+          <li><a href="/#overview">Overview</a></li>
+          <li><a href="/#timeline">Timeline</a></li>
+          <li><a href="/#QandA">FAQs</a></li>
           <li><a href="./register.html">Register</a></li>
         </ul>
         <p class="social-links">
@@ -588,7 +588,11 @@
       </div>
     </div>
     <div class="footer2">
-      <p>All rights reserved. &copy; getlinked Ltd.</p>
+      <p>All rights reserved. <span id="thisYear"></span> &copy; getlinked Ltd.</p>
+      <script>
+        let myDate = new Date();
+        document.querySelector('#thisYear').innerHTML = myDate.getFullYear();
+      </script>
       <!-- The stars that appeared on privacy section -->
       <img class="home-star17" src="./images/star.png" alt="">
       <img class="home-star18" src="./images/star2.png" alt="">
@@ -596,6 +600,7 @@
       <img class="home-star20" src="./images/star pu.png" alt="">
     </div>
   </footer>
+  <button id="scroll-btn"><img src="./images/caret-up.svg" alt="" width="100%"></button>
   <script type="text/javascript" src="./javascript/useful-functs.js"></script>
   <script type="text/javascript" src="./javascript/nav.js"></script>
   <script type="text/javascript" src="./javascript/main.js"></script>
