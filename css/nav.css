@@ -69,6 +69,14 @@ header {
   color: transparent;
 }
 
+.active-nav {
+  background: linear-gradient(to left, #e24ac9, #903AFF);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+
 .reg-link {
   background: linear-gradient(to left, #fe34dc, #903AFF);
 }
