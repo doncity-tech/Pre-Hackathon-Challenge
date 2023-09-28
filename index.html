@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="icon" type="image/x-icon" href="./images/favicon.png">
 </head>
-<body>
+<body onload="preLoad()">
   <!-- Navigation for mobile view -->
   <div class="for-mobi-view" id="for-mobi-view">
     <div class="menu-bar2" id="menu-bar2">
@@ -627,7 +627,7 @@
             </svg>
           </div>
           <div>
-            <p>27,Alara Street <br>Yaba 100012 <br>Lagos State</p>
+            <p>27, Alara Street <br>Yaba 100012 <br>Lagos State</p>
           </div>
         </div>
       </div>
@@ -647,6 +647,12 @@
   </footer>
   <!-- Scroll to the top button -->
   <button id="scroll-btn"><img src="./images/caret-up.svg" alt="" width="100%"></button>
+  <!-- Loading Icon -->
+  <div class="page-load">
+    <div class="cload">
+      <img src="./images/loading1.svg" alt="loading icon">
+    </div>
+  </div>
   <script type="text/javascript" src="./javascript/useful-functs.js"></script>
   <script type="text/javascript" src="./javascript/nav.js"></script>
   <script type="text/javascript" src="./javascript/main.js"></script>
