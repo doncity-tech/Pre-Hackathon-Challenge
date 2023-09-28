@@ -36,6 +36,10 @@ textarea {
   font-size: 12px;
 }
 
+.page-load {
+  background: #ffffff;
+}
+
 .container {
   background-image: url(../images/Purple-Lens.png);
   background-size: 80% 70%;
@@ -728,7 +732,7 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 99999;
+  z-index: 999;
   margin: 10px;
   background-image: linear-gradient(to right, #fe34dc, #903AFF);
   padding: 5px;
