@@ -135,7 +135,7 @@ header {
 
 /* Loading Notice */
 .page-load {
-  display: none;
+  display: flex;
   background: #ffffff;
 }
 
