@@ -1,4 +1,6 @@
-
+const preLoad = () => {
+  qs('.page-load').style.display = "none";
+}
 
 // UI interaction
 (() => {
