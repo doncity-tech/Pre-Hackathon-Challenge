@@ -12,12 +12,13 @@
     .then(responseValidate)
     .then(res => { return res.json() })
     .then(data => {
+      console.log(data);
       getCategories(data);
-      qs('.page-load').style.display = "none";
+      qs('.submission-loading').style.display = "none";
     })
     .catch(error => {
       console.log('error', error);
-      qs('.page-load').style.display = "none";
+      qs('.submission-loading').style.display = "none";
     })
 })();
 
@@ -27,6 +28,7 @@ const getCategories = (categories) => {
   categories.forEach(item => {
     child += `<option value="${item.id}">${item.name}</option>`;
   })
+  qs('#reg-categories').innerHTML = child;
 }
 
 //Handle contact form submission
@@ -40,17 +42,16 @@ const submitRegister = (data) => {
       "Content-Type": "application/json"
     }
   })
-
     .then(res => { return res.json(); })
     .then(data => {
       console.log(data);
       qs('#register-form').reset();
-      qs('.page-load').style.display = "none";
+      qs('.submission-loading').style.display = "none";
       qs('.reg-success').style.display = "flex";
     })
     .catch(error => {
       console.log('error', error);
-      qs('.page-load').style.display = "none";
+      qs('.submission-loading').style.display = "none";
     })
 }
 //UI Interaction
@@ -84,9 +85,8 @@ const submitRegister = (data) => {
       "category": formInput.get('category'),
       "privacy_poclicy_accepted": privacayStatus
     })
-    console.log(regData);
     submitRegister(regData);
-    qs('.page-load').style.display = "flex";
+    qs('.submission-loading').style.display = "flex";
     e.preventDefault();
   })
   qs('.s-back-btn').addEventListener('click', () => {
