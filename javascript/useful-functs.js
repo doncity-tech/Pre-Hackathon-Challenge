@@ -16,12 +16,8 @@ const cleanMyText = (text) => {
 }
 
 // useful functions
-const qs = (elem) => {
-  return document.querySelector(elem)
-}
-const qsAll = (elem) => {
-  return document.querySelectorAll(elem)
-}
+const qs = (elem) => { return document.querySelector(elem) }
+const qsAll = (elem) => { return document.querySelectorAll(elem) }
 
 // Response Validation
 const responseValidate = (response) => {

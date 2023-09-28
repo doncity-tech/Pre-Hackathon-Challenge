@@ -136,6 +136,16 @@ div[class^="lens-"] {
   bottom: 1.2%
 }
 
+.t-star2 {
+  left: 84%;
+  bottom: 0;
+}
+
+.t-star1 {
+  left: 23%;
+  bottom: 146%;
+}
+
 @media only screen and (max-width: 550px) {
   [class^="home-star"] {
     width: 10px !important;
@@ -383,3 +393,61 @@ div[class^="lens-"] {
 }
 
 /* End ofs Contact page */
+
+/* Star animation */
+.stars,
+.home-star,
+[class^="home-"] {
+  animation-iteration-count: infinite;
+}
+
+.cont-star1,
+.reg-star1,
+.star1,
+.home-star0,
+.j-star-pu,
+.t-star1 {
+  animation-name: twinkle-1;
+  animation-duration: 1.1s;
+}
+
+.cont-star2,
+.reg-star2,
+.star2,
+.home-star01,
+.j-star2,
+.t-star2 {
+  animation-name: twinkle-2;
+  animation-duration: 1s;
+}
+
+.cont-star3,
+.reg-star3,
+.star3,
+.home-star02,
+.j-star {
+  animation-name: twinkle-2;
+  animation-duration: 1.2s;
+}
+
+.cont-star4,
+.reg-star4,
+.star4,
+.home-star03 {
+  animation-name: twinkle-2;
+  animation-duration: 1.4s;
+}
+
+@keyframes twinkle-1 {
+  50% {
+    transform: scale(0.3);
+    opacity: 0.3;
+  }
+}
+
+@keyframes twinkle-2 {
+  20% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+}
