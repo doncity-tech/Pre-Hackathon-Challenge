@@ -13,13 +13,13 @@ const submitContact = (data) => {
     .then(res => { return res.json(); })
     .then(data => {
       console.log(data);
-      qs('.page-load').style.display = "none";
+      qs('.submission-loading').style.display = "none";
       qs('.contact-thanks').style.display = "flex";
       qs('#contact-form').reset();
     })
     .catch(error => {
       console.log('error', error);
-      qs('.page-load').style.display = "none";
+      qs('.submission-loading').style.display = "none";
     })
 }
 
@@ -49,7 +49,7 @@ const submitContact = (data) => {
     })
 
     submitContact(contactData);
-    qs('.page-load').style.display = "flex";
+    qs('.submission-loading').style.display = "flex";
     e.preventDefault();
   })
 
