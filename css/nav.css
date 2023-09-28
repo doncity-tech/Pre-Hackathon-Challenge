@@ -69,7 +69,8 @@ header {
   color: transparent;
 }
 
-.active-nav {
+.active-nav,
+.contact-link {
   background: linear-gradient(to left, #e24ac9, #903AFF);
   display: inline-block;
   -webkit-background-clip: text;
