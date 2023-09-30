@@ -23,6 +23,13 @@
   // Collapsing FQS Panel
   qsAll('.fqa-tap').forEach(x => {
     x.addEventListener('click', (e) => {
+      qsAll('.fqa-answer').forEach(y => {
+        let panel = e.target.parentNode.nextElementSibling;
+        if (y.style.maxHeight && !panel.style.maxHeight) {
+          y.style.maxHeight = null;
+          y.previousElementSibling.children[0].textContent = "+";
+        }
+      })
       let panel = e.target.parentNode.nextElementSibling;
       if (panel.style.maxHeight) {
         panel.style.maxHeight = null;
@@ -33,6 +40,7 @@
       }
     });
   });
+
   // Control the navigation when scrolling
   window.addEventListener('scroll', () => {
     // For Overview
