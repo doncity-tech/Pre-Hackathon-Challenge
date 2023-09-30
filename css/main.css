@@ -432,8 +432,10 @@ textarea {
 .ask-tab span {
   float: right;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 800;
   cursor: pointer;
+  padding: 0 0 0 15px;
+  box-sizing: border-box;
 }
 
 .ask-b {
