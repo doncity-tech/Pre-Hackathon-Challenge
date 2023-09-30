@@ -44,7 +44,7 @@
   // Control the navigation when scrolling
   window.addEventListener('scroll', () => {
     // For Overview
-    if (window.scrollY > 592 && window.scrollY < 2264) {
+    if (window.scrollY > 590 && window.scrollY < 2264) {
       qs('#overview-nav').className = "active-nav";
     }
     else {
